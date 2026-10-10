@@ -2,6 +2,7 @@
 
 A macOS shooting gallery game built around the Force Touch haptic trackpad.  
 Hold the trackpad click — feel every round fire.
+DISCLAMER: I am a student and therefore do not have time to accept pull requests and others. Thanks for understanding.
 
 ## Concept
 
