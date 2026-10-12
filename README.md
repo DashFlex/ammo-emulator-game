@@ -1,5 +1,7 @@
 # Ammo Emulator Game
 
+I made this with AI lol
+
 A macOS shooting gallery game built around the Force Touch haptic trackpad.  
 Hold the trackpad click — feel every round fire.
 
