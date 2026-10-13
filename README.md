@@ -21,7 +21,7 @@ The original Ammo Emulator was one trick: hold the trackpad click and the Mac fi
 | **M** | Back to menu *(from pause or game over)* |
 
 ## How to install
-There is a .app.zip file. Download it and open it.
+There is a .app.zip file. Download it and open it. idk if it supports windows maybe not but macos is guaranteed. We recommend dragging the app to the Applications folder.
 
 ## Game Modes
 
