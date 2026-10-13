@@ -20,6 +20,9 @@ The original Ammo Emulator was one trick: hold the trackpad click and the Mac fi
 | **P** / **Esc** | Pause |
 | **M** | Back to menu *(from pause or game over)* |
 
+## How to install
+There is a .app.zip file. Download it and open it.
+
 ## Game Modes
 
 ### 🟡 Classic
