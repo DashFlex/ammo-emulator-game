@@ -21,8 +21,20 @@ The original Ammo Emulator was one trick: hold the trackpad click and the Mac fi
 | **M** | Back to menu *(from pause or game over)* |
 
 ## How to install
-There is a .app.zip file. Download it and open it. idk if it supports windows maybe not but macos is guaranteed. We recommend dragging the app to the Applications folder.
+There is a .app.zip file. Download it and open it. Drag the app to the Applications folder. Do not rename it.
+Before you open it, install Python if you dont have it already (I recommend you install Homebrew cuz its the fastest)
+```bash
+# Install Homebrew (skip if you already have it)
+/bin/bash -c "$(curl -fsSL https://githubusercontent.com)"
 
+# Install Python
+brew install python
+```
+Now once you have done all these (especially dragging it to the Applications folder) go ahead and run this
+```bash
+chmod +x "/Applications/ammo-emulator-game-cannotopenforsomereason.app/Contents/MacOS/ammo-emulator-game"
+xattr -cr "/Applications/ammo-emulator-game-cannotopenforsomereason.app"
+```
 ## Game Modes
 
 ### 🟡 Classic
@@ -44,29 +56,6 @@ There is a .app.zip file. Download it and open it. idk if it supports windows ma
 
 > Haptics require a finger resting on the trackpad while you hold the click.
 
-## Running from Source
-
-```bash
-python3 ammo_emulator_game.py
-```
-
-## Building the App
-
-```bash
-pip install pyinstaller pyobjc-framework-Cocoa
-pyinstaller --windowed --name "Ammo Emulator" ammo_emulator_game.py
-```
-
-Or to wrap the compiled binary into an `.app` bundle manually:
-
-```bash
-APP="/Applications/ammo-emulator-game.app"
-mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
-cp ammo-emulator-game "$APP/Contents/MacOS/ammo-emulator-game"
-chmod +x "$APP/Contents/MacOS/ammo-emulator-game"
-codesign --force --deep --sign - "$APP"
-```
-
 ## Technical Details
 
 | Property | Value |
@@ -77,3 +66,4 @@ codesign --force --deep --sign - "$APP"
 | Architecture | ARM64 (Apple Silicon) |
 | Linked libs | `libSystem.B.dylib`, `libz.1.dylib` |
 | Binary size | ~11 MB |
+| Device | All MacBooks sold after 2018 (discluding MacBook Neo cuz it doesnt have any capacitive trackpad)|
