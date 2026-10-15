@@ -32,9 +32,11 @@ brew install python
 ```
 Now once you have done all these (especially dragging it to the Applications folder) go ahead and run this
 ```bash
+pip3 install pyobjc-framework-Cocoa
 chmod +x "/Applications/ammo-emulator-game.app/Contents/MacOS/ammo-emulator-game"
 xattr -cr "/Applications/ammo-emulator-game.app"
 ```
+
 ## Game Modes
 
 ### 🟡 Classic
@@ -51,7 +53,7 @@ xattr -cr "/Applications/ammo-emulator-game.app"
 - **Python 3**
 - Dependencies:
   ```bash
-  pip install pyobjc-framework-Cocoa
+  pip3 install pyobjc-framework-Cocoa
   ```
 
 > Haptics require a finger resting on the trackpad while you hold the click.
