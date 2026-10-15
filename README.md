@@ -32,8 +32,8 @@ brew install python
 ```
 Now once you have done all these (especially dragging it to the Applications folder) go ahead and run this
 ```bash
-chmod +x "/Applications/ammo-emulator-game-cannotopenforsomereason.app/Contents/MacOS/ammo-emulator-game"
-xattr -cr "/Applications/ammo-emulator-game-cannotopenforsomereason.app"
+chmod +x "/Applications/ammo-emulator-game.app/Contents/MacOS/ammo-emulator-game"
+xattr -cr "/Applications/ammo-emulator-game.app"
 ```
 ## Game Modes
 
