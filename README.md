@@ -1,6 +1,6 @@
 # Ammo Emulator Game
 
-I made this with AI lol
+Acknowledgement: I made this with AI but pls not hate
 
 A macOS shooting gallery game built around the Force Touch haptic trackpad.  
 Hold the trackpad click — feel every round fire.
@@ -68,4 +68,9 @@ xattr -cr "/Applications/ammo-emulator-game.app"
 | Architecture | ARM64 (Apple Silicon) |
 | Linked libs | `libSystem.B.dylib`, `libz.1.dylib` |
 | Binary size | ~11 MB |
-| Device | All MacBooks sold after 2018 (discluding MacBook Neo cuz it doesnt have any capacitive trackpad)|
+| Device | All MacBooks sold after 2018 (I think) discluding MacBook Neo |
+
+## Verified Working Devices
+MacBook Air M4 13 Inch
+MacBook Air M2 13 Inch
+(Tried MacBook Air M1 13 Inch but trackpad haptics didn't work maybe just a coincidence)
