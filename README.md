@@ -26,6 +26,7 @@ Before you open it, install Python if you dont have it already (I recommend you 
 
 Homebrew install:
 https://brew.sh/
+
 Now install python
 ```
 brew install python
