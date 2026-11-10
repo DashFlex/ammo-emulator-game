@@ -73,5 +73,7 @@ xattr -cr "/Applications/ammo-emulator-game.app"
 
 ## Verified Working Devices
 MacBook Air M4 13 Inch
+
 MacBook Air M2 13 Inch
+
 (Tried MacBook Air M1 13 Inch but trackpad haptics didn't work maybe just a coincidence)
