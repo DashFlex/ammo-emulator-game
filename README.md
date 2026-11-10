@@ -23,6 +23,7 @@ The original Ammo Emulator was one trick: hold the trackpad click and the Mac fi
 ## How to install
 There is a .app.zip file. Download it and open it. Drag the app to the Applications folder. Do not rename it.
 Before you open it, install Python if you dont have it already (I recommend you install Homebrew cuz its the fastest)
+
 Homebrew install:
 https://brew.sh/
 Now install python
